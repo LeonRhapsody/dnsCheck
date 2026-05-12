@@ -1,0 +1,22 @@
+# 忽略 GeoLite 数据库和压缩包
+GeoLite2-*
+*.tar.gz
+
+# 忽略可执行文件
+collectWeb
+collectWeb_test
+*.exe
+agent/agent_*
+
+# 忽略数据文件
+*.list
+*.txt
+*.json
+*.xlsx
+
+# 忽略静态文件（用户强调“仅推送 go 代码”）
+static/
+report.html
+
+# 忽略 macOS 属性文件
+.DS_Store
